@@ -10,12 +10,15 @@ def print_pause(message):
     print(message)
     time.sleep(2)
 
-#bcgbvc
+
 def intro():
+    # the message that append in  the beginning of the game
     print_pause("You find yourself standing in an open field, filled "
                 "with grass and yellow wildflowers.")
+    print_pause("You don't remember what happened to you and how you arrived here.")
     print_pause("Rumor has it that a " + option + " is somewhere around "
                                                   "here, and has been terrifying the nearby village.")
+    print_pause("you realize that if you want to go back to your home, you have to defeat the" + option + ".")
     print_pause("In front of you is a house.")
     print_pause("To your right is a dark cave.")
     print_pause("In your hand you hold your rusty (but not very "
@@ -23,6 +26,7 @@ def intro():
 
 
 def cave(item):
+    # what happen when the player enter the cave
     if "the elder wand" in item:
         print_pause("You peer cautiously into the cave.")
         print_pause("You've been here before, and gotten all"
@@ -54,6 +58,7 @@ player_score = 0
 
 
 def score(item):
+    # the questions that give the player his scores
     global player_score
     question1 = input("The first question is: Sectumsempra is a curse causes deep, slashing wounds\n "
                       "on the victim's body and is intended to be used as a means of causing serious \n"
@@ -112,6 +117,7 @@ def score(item):
 
 
 def house(item):
+    # what happen when the player enter the house
     print_pause("You approach the door of the house.")
     print_pause("You are about to knock when the door "
                 "opens and out steps a " + option + ".")
@@ -153,6 +159,7 @@ def house(item):
 
 
 def field(item):
+    # what happen when the player enter the field
     print_pause("Enter 1 to knock on the door of the house.")
     print_pause("Enter 2 to peer into the cave.")
     print_pause("What would you like to do?")

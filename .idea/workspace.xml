@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa110864-7228-4663-804a-3209f09ec0b7" name="Changes" comment="" />
+    <list default="true" id="fa110864-7228-4663-804a-3209f09ec0b7" name="Changes" comment="#added comments">
+      <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +41,18 @@
       <option name="presentableId" value="Default" />
       <updated>1686121982794</updated>
     </task>
+    <task id="LOCAL-00001" summary="#added comments">
+      <created>1686122168095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686122168095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="#added comments" />
   </component>
 </project>
