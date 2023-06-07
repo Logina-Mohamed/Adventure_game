@@ -12,7 +12,7 @@ def print_pause(message):
 
 
 def intro():
-    # the message that append in  the beginning of the game
+    # the message that append in  the beginning of the game.
     print_pause("You find yourself standing in an open field, filled "
                 "with grass and yellow wildflowers.")
     print_pause("You don't remember what happened to you and how you arrived here.")
